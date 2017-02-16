@@ -1,0 +1,19 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(name='viewport' content='width=device-width initial-scale=1')
+		title MyCity
+		link(rel='stylesheet' type='text/css' href='/vendor.css')
+		link(rel='stylesheet' type='text/css' href='/mycity.css')
+	body#randomBgPicContainer
+		include ./features/sections/header/header.pug
+		div#main
+			include ./features/sections/overview/overview.pug
+			include ./features/sections/how-it-works/how-it-works.pug
+			include ./features/sections/map/map.pug
+			include ./features/sections/pricing-plans/pricing-plans.pug
+			include ./features/sections/demo/demo.pug
+			include ./features/sections/contact/contact.pug
+		script(src='./vendor.js')
+		script(src='./mycity.js')
