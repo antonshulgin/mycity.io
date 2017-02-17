@@ -31,7 +31,7 @@
 	};
 
 	config.tiles = {
-		url: 'http://{s}.tiles.mapbox.com/v3/antonshulgin.j24l2ega/{z}/{x}/{y}.png',
+		url: 'https://{s}.tiles.mapbox.com/v3/antonshulgin.j24l2ega/{z}/{x}/{y}.png',
 		options: {
 			attribution: [
 				'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors,',

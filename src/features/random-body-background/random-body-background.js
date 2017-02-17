@@ -2,18 +2,18 @@
 	'use strict';
 
 	var imageUrls = [
-		'/features/random-body-background/images/01.jpg',
-		'/features/random-body-background/images/02.jpg',
-		'/features/random-body-background/images/03.jpg',
-		'/features/random-body-background/images/04.jpg',
-		'/features/random-body-background/images/05.jpg',
-		'/features/random-body-background/images/06.jpg',
-		'/features/random-body-background/images/07.jpg',
-		'/features/random-body-background/images/08.jpg',
-		'/features/random-body-background/images/09.jpg',
-		'/features/random-body-background/images/10.jpg',
-		'/features/random-body-background/images/11.jpg',
-		'/features/random-body-background/images/12.jpg'
+		'./features/random-body-background/images/01.jpg',
+		'./features/random-body-background/images/02.jpg',
+		'./features/random-body-background/images/03.jpg',
+		'./features/random-body-background/images/04.jpg',
+		'./features/random-body-background/images/05.jpg',
+		'./features/random-body-background/images/06.jpg',
+		'./features/random-body-background/images/07.jpg',
+		'./features/random-body-background/images/08.jpg',
+		'./features/random-body-background/images/09.jpg',
+		'./features/random-body-background/images/10.jpg',
+		'./features/random-body-background/images/11.jpg',
+		'./features/random-body-background/images/12.jpg'
 	];
 
 	window.addEventListener('load', function () {
